@@ -1,0 +1,10 @@
+== Requisitos == 
+Node.JS LTE
+
+== Crear la aplicacion ==
+npx create-react-app "nombre"
+
+== Entrar == 
+cd "nombre"
+npm start
+

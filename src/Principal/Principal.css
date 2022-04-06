@@ -1,0 +1,12 @@
+.principal {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 4%;
+    box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.principal-header {
+    border-bottom: 2px solid gray;
+}

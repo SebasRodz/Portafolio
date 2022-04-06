@@ -1,0 +1,28 @@
+.navbar{
+    background-color: black;
+    color: white;
+    box-shadow: 10px 0px 0px rgba(219, 214, 214, 0.25);
+	height: 60px;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 90%;
+    padding-left: 3%;
+}
+
+.navbar-right{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 10%;
+    padding-right: 5%;
+}
