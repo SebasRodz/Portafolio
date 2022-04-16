@@ -2,8 +2,26 @@
 .containerap-first {
     text-align: left;
     border-bottom: 1px solid gray;
+    font-size: 14px;
 }
 
-.containerap-second {
-
+.containerap-first ul {
+    padding-left: 10%;
 }
+
+.containerap-second img {
+    width: 200px;
+}
+
+/* .react-animate {
+    animation: spin 5s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+} */

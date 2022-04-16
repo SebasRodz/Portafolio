@@ -1,8 +1,11 @@
 import './ContainerCR.css'
+import Html from '../../../img/html.svg'
+import Css from '../../../img/css.svg'
+import Js from '../../../img/js.svg'
 
 const ContainerCR = () => {
     return (
-        <div className='principal'>
+        <div className='principal' id="ccr">
             <div className='principal-header'>
                 <h2>Certificados y Conocimientos</h2>
             </div>
@@ -16,6 +19,9 @@ const ContainerCR = () => {
                     </ul>
                 </div>
                 <div className='containercr-second'>
+                    <img src={Html}></img>
+                    <img src={Css}></img>
+                    <img src={Js}></img>
                 </div>
             </div>
         </div>

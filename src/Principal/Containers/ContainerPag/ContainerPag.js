@@ -2,7 +2,7 @@ import './ContainerPag.css'
 
 const ContainerPag = () => {
     return (
-        <div className='principal principal-final'>
+        <div className='principal principal-final' id="cp">
             <div className='principal-header'>
                 <h2>Desarrollo Web</h2>
             </div>

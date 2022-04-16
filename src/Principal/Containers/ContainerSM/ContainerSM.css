@@ -8,13 +8,14 @@
     padding-left: 3%;
     padding-right: 3%;
     border-bottom: 1px solid gray;
+    font-size: 14px;
 }
 
 .containersm-right {
-    font-size: 18px;
     /* width: 30%; */
     padding-right: 1%;
     text-align: left;
+    font-size: 14px;
 }
 
 .containersm-right ul {
@@ -24,4 +25,24 @@
 
 .containersm-right ul li {
     margin-bottom: 4%;
+}
+
+@media only screen and (min-width: 800px) {
+    .containersm{
+        display: flex;
+    }
+
+    .containersm-left {
+        width: 60%;
+        border-right: 1px solid gray;
+        padding-left: 1%;
+    }
+
+    .containersm-right {
+        width: 40%;
+    }
+
+    .containersm-right ul li {
+        margin-bottom: 2%;
+    }
 }

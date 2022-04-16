@@ -1,9 +1,10 @@
 import './ContainerAP.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from '../../../img/logo.svg'
 
 const ContainerAp = () => {
     return (
-        <div className='principal'>
+        <div className='principal' id="cap">
             <div className='principal-header'>
                 <h2>Aptitudes</h2>
             </div>
@@ -17,6 +18,7 @@ const ContainerAp = () => {
                     </ul>
                 </div>
                 <div className='containerap-second'>
+                    <img src={React} className="react-animate"></img>
                 </div>
             </div>
         </div>

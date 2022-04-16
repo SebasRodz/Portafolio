@@ -1,5 +1,10 @@
 .containerpag-first {
     text-align: left;
+    font-size: 14px;
+}
+
+.containerpag-first ul{
+    padding-left: 10%;
 }
 
 .containerpag-first a{

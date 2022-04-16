@@ -1,3 +1,7 @@
+.principal-super{
+    margin-top: 80px;
+}
+
 .principal {
     width: 90%;
     background-color: white;
@@ -9,4 +13,11 @@
 
 .principal-header {
     border-bottom: 2px solid gray;
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 800px) {
+    .principal {
+        margin-top: 2%;
+    }
 }

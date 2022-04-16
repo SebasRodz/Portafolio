@@ -6,12 +6,12 @@ import ContainerPag from './Containers/ContainerPag/ContainerPag'
 
 const Principal = () => {
     return (
-        <>
+        <div className='principal-super'>
             <ContainerSM />
             <ContainerAp />
             <ContainerCR />
             <ContainerPag />
-        </>
+        </div>
     )
 }
 export default Principal;

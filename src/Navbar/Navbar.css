@@ -8,6 +8,8 @@
 	top: 0; /* Posicionamos la cabecera pegada arriba */
     display: flex;
     align-items: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
 }
 
 .navbar-left{
@@ -16,13 +18,55 @@
     justify-content: left;
     width: 90%;
     padding-left: 3%;
+    font-size: 12px;
 }
 
 .navbar-right{
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: right;
     width: 10%;
     padding-right: 5%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    right: 0;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px;
+    z-index: 1;
+  }
+
+.open {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+ }
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+@media only screen and (min-width: 800px) {
+    .navbar-left{
+        font-size: 15px;
+        padding-left: 5%;
+    }
+
+    .navbar-right{
+        font-size: 25px;
+    }
 }

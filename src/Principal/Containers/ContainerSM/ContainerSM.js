@@ -6,7 +6,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 const ContainerSM = () => {
     return (
-        <div className='principal'>
+        <div className='principal' id="csm">
             <div className='principal-header'>
                 <h2>Sobre mí</h2>
             </div>
