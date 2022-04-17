@@ -7,10 +7,14 @@ import ContainerPag from './Containers/ContainerPag/ContainerPag'
 const Principal = () => {
     return (
         <div className='principal-super'>
-            <ContainerSM />
-            <ContainerAp />
-            <ContainerCR />
-            <ContainerPag />
+            <div className='grid2'>
+                <ContainerSM />
+                <ContainerAp />
+            </div>
+            <div className='grid2'>
+                <ContainerCR />
+                {/* <ContainerPag /> */}
+            </div>
         </div>
     )
 }

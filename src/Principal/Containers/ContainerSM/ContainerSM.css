@@ -28,18 +28,28 @@
 }
 
 @media only screen and (min-width: 800px) {
-    .containersm{
+    .containersm {
         display: flex;
     }
 
     .containersm-left {
-        width: 60%;
+        width: 40%;
+        border-bottom: none;
         border-right: 1px solid gray;
-        padding-left: 1%;
+    }
+    
+    .containersm-right {
+        width: 60%;
+        display: flex;
     }
 
-    .containersm-right {
-        width: 40%;
+    .containersm-right1 {
+        width: 50%;
+        border-right: 1px solid gray;
+    }
+
+    .containersm-right2 {
+        width: 50%;
     }
 
     .containersm-right ul li {

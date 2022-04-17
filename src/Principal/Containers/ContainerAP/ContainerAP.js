@@ -1,10 +1,12 @@
 import './ContainerAP.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from '../../../img/logo.svg'
+import Angular from '../../../img/angular.svg'
+import MySql from '../../../img/mysql.svg'
 
 const ContainerAp = () => {
     return (
-        <div className='principal' id="cap">
+        <div className='principal'>
             <div className='principal-header'>
                 <h2>Aptitudes</h2>
             </div>
@@ -18,7 +20,9 @@ const ContainerAp = () => {
                     </ul>
                 </div>
                 <div className='containerap-second'>
-                    <img src={React} className="react-animate"></img>
+                    <img id="ccr" src={React} className="react-animate"></img>
+                    <img className="angular" src={Angular}></img>
+                    <img className='mysql' src={MySql}></img>
                 </div>
             </div>
         </div>

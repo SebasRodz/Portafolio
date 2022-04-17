@@ -5,7 +5,7 @@ import Js from '../../../img/js.svg'
 
 const ContainerCR = () => {
     return (
-        <div className='principal' id="ccr">
+        <div className='principal'>
             <div className='principal-header'>
                 <h2>Certificados y Conocimientos</h2>
             </div>

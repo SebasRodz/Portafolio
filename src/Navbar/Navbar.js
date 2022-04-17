@@ -23,10 +23,10 @@ const Navbar = () => {
                         icon = {faBars} 
                     />
                     <div className={open ? "dropdown-content open" : "dropdown-content"} onClickOutside>
-                        <a onClick={Cerrar} href="#csm">Sobre Mí</a>
+                        <a onClick={Cerrar} href="#top">Sobre Mí</a>
                         <a onClick={Cerrar} href="#cap">Aptitudes</a>
                         <a onClick={Cerrar} href="#ccr">Conocimientos</a>
-                        <a onClick={Cerrar} href="#cp">Desarrollo</a>
+                        {/* <a onClick={Cerrar} href="#cp">Desarrollo</a> */}
                     </div>
                 </div>
             </div>
